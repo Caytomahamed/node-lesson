@@ -1,14 +1,18 @@
 {
   "name": "express1",
   "version": "1.0.0",
-  "description": "lesson one of the node js use express ",
+  "description": "express one ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "cayto",
+  "author": "Cayto",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.18"
   }
 }
